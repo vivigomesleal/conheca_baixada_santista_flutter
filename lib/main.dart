@@ -102,7 +102,7 @@ class _CatalogoPontosTuristicosState extends State<CatalogoPontosTuristicos> {
       descricao:
           'O jardim da praia de Santos acompanha boa parte da orla com canteiros floridos, árvores e caminhos para caminhar ou pedalar. É famoso por sua extensão e pelo paisagismo à beira-mar.',
       imagemUrl:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5erSt3ziUmbyWsJeHoPe33aIGObB7pzNhlgpG0oiuA&s',
+          'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Jardim_da_Orla_de_Santos_2.jpg/960px-Jardim_da_Orla_de_Santos_2.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=thumbnail',
     ),
     PontoTuristico(
       nome: 'Mirante das Galhetas',
@@ -129,14 +129,30 @@ class _CatalogoPontosTuristicosState extends State<CatalogoPontosTuristicos> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          'Conheça a Baixada Santista',
-          style: TextStyle(fontWeight: FontWeight.bold),
+  toolbarHeight: 76,
+  title: const Column(
+    mainAxisSize: MainAxisSize.min,
+    children: [
+      Text(
+        'Conheça a Baixada Santista',
+        textAlign: TextAlign.center,
+        style: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 24,
         ),
-        centerTitle: true,
-        backgroundColor: Theme.of(context).colorScheme.primary,
-        foregroundColor: Colors.white,
       ),
+      SizedBox(height: 4),
+      Text(
+        'Criado por Vivian Gomes Leal',
+        textAlign: TextAlign.center,
+        style: TextStyle(fontSize: 15),
+      ),
+    ],
+  ),
+  centerTitle: true,
+  backgroundColor: const Color(0xFF087E8B),
+  foregroundColor: Colors.white,
+),
       body: Column(
         children: [
           _buildApresentacao(quantidadeVisitados, quantidadeFavoritos),
