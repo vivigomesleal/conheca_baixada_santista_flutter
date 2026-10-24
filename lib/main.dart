@@ -62,15 +62,15 @@ class _CatalogoPontosTuristicosState extends State<CatalogoPontosTuristicos> {
       descricao:
           'Um refúgio em meio à Mata Atlântica, conhecido pelas águas naturais e pelo contato com a natureza. Antes de visitar, confira as condições de acesso e as regras locais.',
       imagemUrl:
-          '',
+          'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/49/4a/20/cachoeira-do-paraiso.jpg?w=1400&h=800&s=1',
     ),
     PontoTuristico(
-      nome: 'Estátua das Mulheres de Areia',
+      nome: 'Cama do Anchieta',
       cidade: 'Itanhaém',
       descricao:
-          'Monumento inspirado na novela Mulheres de Areia, em um dos cenários mais conhecidos da orla de Itanhaém. É uma parada popular para fotos e para apreciar a paisagem costeira.',
+          'Um dos lugares mais visitados por turistas e moradores que não se cansam de admirar as belezas naturais das paisagens que se apresentam durante todo o passeio',
       imagemUrl:
-          '',
+          'https://farm9.staticflickr.com/8240/8660541189_5b6ad5284e_h.jpg',
     ),
     PontoTuristico(
       nome: 'Poço das Antas',
@@ -78,7 +78,7 @@ class _CatalogoPontosTuristicosState extends State<CatalogoPontosTuristicos> {
       descricao:
           'Área natural com cachoeira e piscinas naturais cercadas pela vegetação da Mata Atlântica. Ideal para quem gosta de ecoturismo; respeite a sinalização e as orientações de segurança.',
       imagemUrl:
-          '',
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw-kfbjpHuFuPU7rUB6aUSXbr2SMA_PadPedXps6H1Hw&s',
     ),
     PontoTuristico(
       nome: 'Fortaleza de Itaipu',
@@ -86,7 +86,7 @@ class _CatalogoPontosTuristicosState extends State<CatalogoPontosTuristicos> {
       descricao:
           'Complexo histórico-militar localizado na região do Canto do Forte, com paisagens do litoral e importância para a história da defesa costeira. O acesso pode depender de autorização ou visita agendada.',
       imagemUrl:
-          '',
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5erSt3ziUmbyWsJeHoPe33aIGObB7pzNhlgpG0oiuA&s',
     ),
     PontoTuristico(
       nome: 'Teleférico e Morro da Asa Delta',
@@ -94,7 +94,7 @@ class _CatalogoPontosTuristicosState extends State<CatalogoPontosTuristicos> {
       descricao:
           'Passeio conhecido pelas vistas panorâmicas da praia, da cidade e do mar. O Morro da Asa Delta também é procurado por quem pratica voo livre, conforme condições e regras locais.',
       imagemUrl:
-          '',
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzc_KlicvoJD6WqOweFKT6VRcuBByS5fiT3XSUrYWAyEzaU9SsRrZLkRc&s=10',
     ),
     PontoTuristico(
       nome: 'Jardim da Orla',
@@ -102,23 +102,23 @@ class _CatalogoPontosTuristicosState extends State<CatalogoPontosTuristicos> {
       descricao:
           'O jardim da praia de Santos acompanha boa parte da orla com canteiros floridos, árvores e caminhos para caminhar ou pedalar. É famoso por sua extensão e pelo paisagismo à beira-mar.',
       imagemUrl:
-          '',
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5erSt3ziUmbyWsJeHoPe33aIGObB7pzNhlgpG0oiuA&s',
+    ),
+    PontoTuristico(
+      nome: 'Mirante das Galhetas',
+      cidade: 'Guarujá',
+      descricao:
+          'Mirante com vistas panorâmicas da costa e acesso a áreas de lazer. Ideal para fotografias e momentos de tranquilidade.',
+      imagemUrl:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk8mZpX127p1E77ar5R405uG_KBCXaeYezigvxzGn0hWS34qz1j7xxcc15&s=10',
     ),
     PontoTuristico(
       nome: 'Forte São João',
       cidade: 'Bertioga',
       descricao:
-          'Fortificação histórica à beira do canal de Bertioga, associada ao início da colonização portuguesa na região. O entorno oferece uma vista agradável e um passeio cultural.',
+          ' Fortificação histórica à beira do canal de Bertioga, associada ao início da colonização portuguesa na região. O entorno oferece uma vista agradável e um passeio cultural.',
       imagemUrl:
-          '',
-    ),
-    PontoTuristico(
-      nome: '',
-      cidade: 'Guarujá',
-      descricao:
-          ' ',
-      imagemUrl:
-          '',
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfKqOyHGPQ-dfRorD5u2U-nMowvFa9E5Yq1IERRGK9EPpQRcip5ig32xMK&s=10',
     ),
   ];
 
